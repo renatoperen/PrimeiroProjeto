@@ -95,3 +95,29 @@ main{
     width: 100%;
     float:left;
 }
+
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('./imagens/anterior.png');
+    top: 52%;
+    left: 0;
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('./imagens/proximo.png');
+    top: 52%;
+    right: 0;
+}
