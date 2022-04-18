@@ -106,7 +106,7 @@ button.slick-prev{
     position: absolute;
     background-image: url('./imagens/anterior.png');
     top: 52%;
-    left: 0;
+    left: 14%;
 }
 
 button.slick-next{
@@ -119,5 +119,37 @@ button.slick-next{
     position: absolute;
     background-image: url('./imagens/proximo.png');
     top: 52%;
-    right: 0;
+    right: 14%;
+}
+
+.slick-list{
+    width: 100%!important;
+}
+
+.slick-initialized{
+    overflow: hidden;
+}
+
+.slick-dots li button{ 
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 500px;
+}
+
+.slick-dots li{
+    display: inline-block;
+   
 }
