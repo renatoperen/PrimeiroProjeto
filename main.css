@@ -13,7 +13,7 @@ ul{
     height: 60px;
 }
 
-main{
+main, .content{
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -70,18 +70,15 @@ main{
     font-size: 18px;
     text-transform: uppercase;
 }
-
 .menu{
     width: 70%;
     float: left;
 }
-
 .busca{
     text-align: center;
     width: 30%;
     float: right;
 }
-
 .busca input{
     background-image: url('./imagens/icone-search.png');
     background-repeat: no-repeat;
@@ -95,7 +92,6 @@ main{
     width: 100%;
     float:left;
 }
-
 button.slick-prev{
     font-size: 0px;
     border: none;
@@ -108,7 +104,6 @@ button.slick-prev{
     top: 52%;
     left: 14%;
 }
-
 button.slick-next{
     font-size: 0px;
     border: none;
@@ -121,15 +116,12 @@ button.slick-next{
     top: 52%;
     right: 14%;
 }
-
 .slick-list{
     width: 100%!important;
 }
-
 .slick-initialized{
     overflow: hidden;
 }
-
 .slick-dots li button{ 
     font-size: 0px;
     border: 5px solid #ffffff;
@@ -140,16 +132,33 @@ button.slick-next{
     cursor: pointer;
 
 }
-
 .slick-dots{
     margin: 0 auto;
     width: 50%;
     position: absolute;
-    left: 50%;
+    left: 42%;
     top: 500px;
 }
-
+li.slick-active button{
+    background: #00bac6;
+}
 .slick-dots li{
-    display: inline-block;
-   
+    padding-left: 10px;
+    display: inline-block;  
+}
+.texto-destaque{
+    text-align: center;
+}
+
+.texto-destaque h1{
+    color: #818181;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.texto-destaque strong{
+    color: #646464
+}
+.texto-destaque p{
+    font-size: 15px;
+    color: #a9a9aa;
 }
